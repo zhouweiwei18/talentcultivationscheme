@@ -36,6 +36,7 @@ public class LoginFilter implements Filter
         String url = request.getRequestURI();
 
         //非法用户
+        //断点调试
         if (!url.endsWith("login.jsp")&&!url.endsWith("getClassifications.do")
         		&&!url.endsWith("getSpecialitiesByClassificationId.do")
         		&&!url.endsWith("userLogin.do")&&!url.endsWith("sncheck.do")
