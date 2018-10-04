@@ -42,6 +42,7 @@ import edu.njxzc.tcs.service.UserService;
 @Controller
 public class UserController {
 
+	//添加日志信息
 	private Logger logger = Logger.getLogger(this.getClass());
 	
 	@Resource
